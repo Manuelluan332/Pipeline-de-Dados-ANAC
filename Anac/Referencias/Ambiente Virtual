@@ -1,0 +1,16 @@
+01.Criando o Ambiente Virtual:
+
+py -m venv sgbds
+
+02.Ativando o Ambiente Virtual:
+
+mome_do_ambiente\Scripts\activate
+Ex: Sgbds\Scripts\activate
+
+03.Configuração do Ambiente Virtual:
+
+pip install virtualenv  ou pip3 install virtualenv
+
+04.Caso de erro na restrição na ativação do ambiente Virtual abra o power shell e execute  como adm:
+
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
