@@ -48,13 +48,13 @@ RemoteSigned
 ```
 ### 2.2 Instalação das demais bibliotecas(Pandas/SqlAlchemy/Pyscopg2)
 ```
-# 01.Biblioteca Pandas:
+#01.Biblioteca Pandas:
     pip install pandas
 
-02.Biblioteca SqlAlchemy:
+#02.Biblioteca SqlAlchemy:
     pip install SQLAlchemy
 
-03.Biblioteca Pyscopg2:
+#03.Biblioteca Pyscopg2:
    pip install pyscopg2
 
 ```
