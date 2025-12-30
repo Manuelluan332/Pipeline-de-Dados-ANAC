@@ -46,13 +46,16 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy
 RemoteSigned
 
 ```
-### 2.2 Instalação das demais bibliotecas(Pandas/SqlAlchemy)
+### 2.2 Instalação das demais bibliotecas(Pandas/SqlAlchemy/Pyscopg2)
 ```
 # 01.Biblioteca Pandas:
     pip install pandas
 
 02.Biblioteca SqlAlchemy:
     pip install SQLAlchemy
+
+03.Biblioteca Pyscopg2:
+   pip install pyscopg2
 
 ```
 ### 3. Configuração:
