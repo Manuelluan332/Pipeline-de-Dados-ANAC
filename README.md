@@ -46,7 +46,15 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy
 RemoteSigned
 
 ```
+### 2.2 Instalação das demais bibliotecas(Pandas/SqlAlchemy)
+```
+# 01.Biblioteca Pandas:
+    pip install pandas
 
+02.Biblioteca SqlAlchemy:
+    pip install SQLAlchemy
+
+```
 ### 3. Configuração:
 
 1. Abra o seu PostgreSQL e crie um banco de dados (ex: db_anac).
@@ -76,7 +84,6 @@ port = '5432'
 Vislumbre do arquivo feito no power bi para a visualização dos dados da  tabela ANAC
 
   <img width="1913" height="992" alt="ANAC-POWERBI" src="https://github.com/user-attachments/assets/ead273be-39c8-4b15-b65f-9247b917a472" />
-
 
 ## Referências da Web 
 
