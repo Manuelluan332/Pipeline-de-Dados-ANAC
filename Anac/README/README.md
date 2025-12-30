@@ -3,7 +3,7 @@
 
 ## 🚀 Descrição  do projeto
 
-O objetivo do projeto  foi criar uma Pipeline ETL com dados  brutos extraidos do site do Gov pela ANAC (Agência Nacional de Aviação Civil) no intuito de realizar o tratamento via Python  e a disponibilidade com o banco de dados PostgreSql, assim como a criação de dashboard com power bi para visualização de dados na tomada de deciões na   análise estratégica de voos e areonaves.
+O objetivo do projeto  foi criar uma Pipeline ETL com dados  brutos extraidos do site do Gov pela ANAC (Agência Nacional de Aviação Civil) no intuito de realizar o tratamento via Jupyter Python  e a disponibilidade com o banco de dados PostgreSql, assim como a criação de dashboard com power bi para visualização de dados na tomada de deciões na   análise estratégica de voos e areonaves.
 
 ## 🛠️ Ferramentas Utilizadas 
 
@@ -75,7 +75,7 @@ port = '5432'
 
 Vislumbre do arquivo feito no power bi para a visualização dos dados da  tabela ANAC
 
-![AAAA](ANAC-POWERBI.png)
+![Dashboard Anac ](ANAC-POWERBI.png)
 
 
 ## Referências da Web 
