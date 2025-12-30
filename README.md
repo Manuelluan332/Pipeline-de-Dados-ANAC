@@ -85,7 +85,7 @@ Vislumbre do arquivo feito no power bi para a visualização dos dados da  tabel
 
   <img width="1913" height="992" alt="ANAC-POWERBI" src="https://github.com/user-attachments/assets/ead273be-39c8-4b15-b65f-9247b917a472" />
 
-## Referências da Web 
+## 📜 Referências da Web 
 
 [PostgreSQL datatype](https://www.postgresql.org/docs/current/datatype.html)
 
