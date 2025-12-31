@@ -86,7 +86,7 @@ port = '5432'
 
 Vislumbre do arquivo feito no power bi para a visualização dos dados da  tabela ANAC
 
-  <img width="1913" height="992" alt="ANAC-POWERBI" src="https://github.com/user-attachments/assets/ead273be-39c8-4b15-b65f-9247b917a472" />
+<img width="1910" height="981" alt="Dashbhoard Anac-py" src="https://github.com/user-attachments/assets/31b5b74d-d017-43ca-9ea7-004eee8ec92c" />
 
 ## 📜 Referências da Web 
 
