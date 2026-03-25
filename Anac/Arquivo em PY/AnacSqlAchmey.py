@@ -13,9 +13,9 @@ df[colunas].head()
 #import psycopg2
 from sqlalchemy import create_engine
 
-dbname ='forca_aerea'          
-user = 'postgres'
-password = 'db123'            
+dbname ='seu banco'          
+user = 'seu usuario'
+password = 'sua senha'            
 host = 'localhost'
 port = '5432'
 
