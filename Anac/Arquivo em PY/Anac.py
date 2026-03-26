@@ -23,9 +23,9 @@ df = df.astype(object).where(df.notnull(), None)
 import   psycopg2
 
 #Parametro de conexão:
-dbname ='forca_aerea'          
-user = 'postgres'
-password = 'db123'            
+dbname ='seu banco'          
+user = 'seu usuario'
+password = 'sua senha'            
 host = 'localhost'
 port = '5432'
 
