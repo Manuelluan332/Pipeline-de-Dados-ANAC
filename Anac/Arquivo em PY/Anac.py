@@ -25,7 +25,7 @@ import   psycopg2
 #Parametro de conexão:
 dbname ='forca_aerea'          
 user = 'postgres'
-password = 'db123'            
+password = 'db123 '            
 host = 'localhost'
 port = '5432'
 
@@ -41,7 +41,7 @@ cursor = conexao.cursor()
 
 #Delete base antes da Carga:
 #cursor.execute(' delete from public.anac ')
-# df = df.where(df.notnull(), None)
+
 
 #carga de dados:
 for  indice,coluna_df in df.iterrows():
