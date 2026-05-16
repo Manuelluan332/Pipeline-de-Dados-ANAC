@@ -24,53 +24,56 @@ O objetivo do projeto  foi criar uma Pipeline ETL com dados  brutos extraidos do
 
 ### 2. Instalação:
 
-### 2.1 Instale as dependências  iniciais
+
+### 2.1 Instalação do ambiente Virtual:
 
 ``` 
-#01.Criando o Ambiente Virtual:
+01.Criando o Ambiente Virtual:
 
-py -m venv sgbds
+py -m venv venv
 
-#02.Ativando o Ambiente Virtual:
+02.Ativando o Ambiente Virtual:
 
 mome_do_ambiente \Scripts\activate
-Ex: Sgbds\Scripts\activate
+Ex: venv\Scripts\activate
 
-#03.Configuração do Ambiente Virtual:
+03.Configuração do Ambiente Virtual:
 
 pip install virtualenv  ou pip3 install virtualenv
 
-#04.Caso de erro na restrição na ativação do ambiente Virtual abra o power shell e execute  como adm:
+04.Caso de erro na restrição na ativação do ambiente Virtual abra o powershell e  o execute  como adm:
 
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy 
 RemoteSigned
 
 ```
-### 2.2 Instalação das demais bibliotecas(Pandas/SqlAlchemy/Pyscopg2)
+### 2.2 Instalação das demais bibliotecas(Pandas/SqlAlchemy/Pyscopg2/Openpyxl/Dotenv)
+#### O requirements.txt lista a demais  as demais dependencias que precisam ser baixadas 
 ```
-#01.Biblioteca Pandas:
-    pip install pandas
-
-#02.Biblioteca SqlAlchemy:
-    pip install SQLAlchemy
-
-#03.Biblioteca Pyscopg2:
-   pip install pyscopg2
-
+pip install -r requirements.txt
 ```
-### 3. Configuração:
+### 3. Configuração no banco de dados:
 
 1. Abra o seu PostgreSQL e crie um banco de dados (ex: db_anac).
 
-2. No ficheiro anac.py, preencha  as credenciais de conexão:
-### 3.1 Configuração do banco de dados(PostgresSql) no Visual Studio Code 
+2. Dentro do projeto na pasta **transact-SQL** copie  os dois arquivos e os leve para o PostgreSQL para  criar as tabelas do proejto.
+
+3. Após isso, no   projeto crie um arquivo chamado **.env** dentro dele você ira preencher todos os seus dados sensíveis no banco de dados para serem protegidos. 
+
+### 3.1 Configuração do banco de dados(PostgresSql) no Visual Studio Code: 
 
 ```
-dbname = 'seu_banco'   
-user = 'seu_usuario'        
-password = 'sua_senha'       
-host = 'localhost'
-port = '5432'
+01.pyscopg:
+
+DB_NAME=seu_banco
+DB_USER=seu_usuario 
+DB_PASSWORD=sua_senha 
+DB_HOST=localhost
+DB_PORT=5432
+
+02.SQLAlchemy:
+
+DATABASE_URL=postgresql+psycopg2://user:password@localhost:5432/database
  ```
 
 
@@ -80,6 +83,22 @@ port = '5432'
 3.  **Carga:** Ingestão automatizada no banco de dados **PostgreSQL** através do **SQLAlchemy**.
 4.  **Análise:** Criação de dashboard interativo no **Power BI** conectado diretamente ao banco de dados.
 
+```
+Anac-/
+├──Arquivo-Json/PecasAprovadas.json
+├──Arquivo-Dataframes
+├──Scripts/
+|Dataframes+ReadingFiles.ipynb
+|ETL.py
+|Models.py
+├──Transact-SQL/
+|Enviando dados para o Postgres.sql
+|Mapeamento de dados  na tabela.sql
+├──venv
+├── env  
+
+```
+
 
 
  ##  📊 Visualização do Dashboard
@@ -87,6 +106,9 @@ port = '5432'
 Vislumbre do arquivo feito no power bi para a visualização dos dados da  tabela ANAC
 
 <img width="1910" height="981" alt="Dashbhoard Anac-py" src="https://github.com/user-attachments/assets/31b5b74d-d017-43ca-9ea7-004eee8ec92c" />
+
+
+
 
 ## 📜 Referências da Web 
 
