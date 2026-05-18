@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 1. Abra o seu PostgreSQL e crie um banco de dados (ex: db_anac).
 
-2. Dentro do projeto na pasta **transact-SQL** copie  os dois arquivos e os leve para o PostgreSQL para  criar as tabelas do proejto.
+2. Dentro do projeto na pasta **transact-SQL** copie  os dois arquivos e os leve para o PostgreSQL para  criar as tabelas do projeto.
 
 3. Após isso, no   projeto crie um arquivo chamado **.env** dentro dele você ira preencher todos os seus dados sensíveis no banco de dados para serem protegidos. 
 
