@@ -48,7 +48,6 @@ RemoteSigned
 
 ```
 ### 2.2 Instalação das demais bibliotecas(Pandas/SqlAlchemy/Pyscopg2/Openpyxl/Dotenv)
-#### O requirements.txt lista a demais  as demais dependencias que precisam ser baixadas 
 ```
 pip install -r requirements.txt
 ```
