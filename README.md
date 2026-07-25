@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 # Pipeline de Dados Anac: Processamento de Dados do setor Aéreo ✈️ 🎲
 
 
@@ -202,7 +202,7 @@ port = '5432'
  ```
 
 
-## 🏗️ Arquitetura do Projeto
+## 🏗️ Arquitetura Pipeline 
 1.  **Extração:** Leitura de arquivos JSON da ANAC.
 2.  **Transformação (ETL):** Limpeza, tipagem e manipulação de dados utilizando a biblioteca **Pandas**.
 3.  **Carga:** Ingestão automatizada no banco de dados **PostgreSQL** através do **SQLAlchemy**.
@@ -225,4 +225,4 @@ Vislumbre do arquivo feito no power bi para a visualização dos dados da  tabel
 [TABLE](https://www.postgresql.org/docs/current/sql-droptable.html)
 
 
->>>>>>> Stashed changes
+
