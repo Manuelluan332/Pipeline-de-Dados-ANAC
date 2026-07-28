@@ -3,7 +3,7 @@
 
 
 ## 🚀 Descrição  do projeto
-Este projeto consiste na construção de uma Pipeline ETL para processamento de dados públicos disponibilizados pela ANAC (Agência Nacional de Aviação Civil). Os dados são extraídos do Portal Brasileiro de Dados Abertos, transformados utilizando Python e Pandas, armazenados em PostgreSQL e posteriormente utilizados na criação de dashboards interativos no Power BI para apoio à análise de informações do setor aeronáutico.
+Este projeto consiste na construção de uma Pipeline ETL para processamento de dados públicos disponibilizados pela ANAC (Agência Nacional de Aviação Civil). Os dados são extraídos do Portal Brasileiro de Dados Abertos, transformados utilizando Python e Pandas, armazenados em PostgreSQL e posteriormente utilizados na criação de um  dashboard interativo  no Power BI para apoio à análise de informações do setor aeronáutico.
 
 
 ## 🛠️ Ferramentas Utilizadas 
@@ -48,7 +48,7 @@ pip install virtualenv  ou pip3 install virtualenv
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy 
 RemoteSigned
 ```
-##### Linux
+##### Linux:
 ```
 1.Criando o Ambiente Virtual: 
 python3 -m venv .venv
